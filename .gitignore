@@ -17,4 +17,4 @@ pids
 node_modules
 
 # Distribution files
-dist
+electron_gulp_runner_dist

@@ -11,8 +11,8 @@ var defaultOptions = {
 	'platform': platform,
 	'version': '0.36.10',
 	'asar': true,
-	'out': 'dist',
-	'ignore': 'dist',
+	'out': 'electron_gulp_runner_dist',
+	'ignore': 'electron_gulp_runner_dist',
 	'overwrite': true,
 	'app-version': projectPackage.version
 };
