@@ -1,20 +1,20 @@
 var gulp = require('gulp');
 var electronPackager = require('electron-packager');
-var appVersion = require('./package.json').version;
+var projectPackage = require('./package.json');
 
 var platform = process.platform;
 var packagePaths = undefined;
 var defaultOptions = {
 	'dir': '.',
 	'arch': 'x64',
-	'name': 'frontend-builder',
+	'name': projectPackage.name,
 	'platform': platform,
 	'version': '0.36.10',
 	'asar': true,
 	'out': 'dist',
 	'ignore': 'dist',
 	'overwrite': true,
-	'app-version': appVersion
+	'app-version': projectPackage.version
 };
 var variations = {
 	darwin: {
