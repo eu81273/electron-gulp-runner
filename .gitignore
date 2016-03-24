@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# File cache
+.DS_Store
+
+# Swap files
+*.swp
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules
+
+# Distribution files
+dist

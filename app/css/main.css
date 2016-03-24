@@ -1,0 +1,76 @@
+body {
+	padding-top: 90px;
+}
+
+textarea {
+	resize: none;
+}
+
+.navbar-overflow {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.navbar-overflow:hover {
+	overflow: auto;
+}
+
+.navbar-overflow::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+	padding: none;
+}
+
+.navbar-overflow::-webkit-scrollbar-track {
+	border-radius: 5px;
+	background: rgba(0, 0, 0, .1);
+}
+
+.navbar-overflow::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: rgba(0, 0, 0, .2);
+}
+
+.navbar-overflow::-webkit-scrollbar-track:hover {
+	background: rgba(0, 0, 0, .3);
+}
+
+.navbar-overflow::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, .7);
+}
+
+.navbar * {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.navbar .btn {
+	margin-top: 13px;
+}
+
+.navbar .btn-group {
+	margin-right: 10px;
+}
+
+.bs-component {
+	margin-bottom: 15px;
+}
+
+.pathname {
+	height: 130px;
+	font-weight: bold;
+}
+
+.console {
+	height: 330px;
+	overflow: auto;
+	word-break: break-all;
+	background-color: #333333;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}

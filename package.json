@@ -1,0 +1,33 @@
+{
+  "name": "electron-gulp-runner",
+  "version": "1.0.0",
+  "description": "Electron Gulp Runner",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron app/main.js",
+    "build": "./node_modules/.bin/gulp build"
+  },
+  "author": "AHN JAE-HA",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "babelify": "^7.2.0",
+    "classnames": "^2.2.3",
+    "gulp": "^3.9.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.10",
+    "gulp": "^3.9.1"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
