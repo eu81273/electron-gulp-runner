@@ -19,7 +19,7 @@ const workerEnv = {
 	ELECTRON_NO_ATTACH_CONSOLE: false,
 	ELECTRON_HIDE_INTERNAL_MODULES: true
 };
-const production = __dirname.includes('Contents/Resources/app') || __dirname.includes('resources/app');
+const production = __dirname.includes('Contents/Resources/app') || __dirname.includes('resources/app') || __dirname.includes('resources\\app');
 const mainfile = path.basename(__filename);
 
 let mainWindow = null;
