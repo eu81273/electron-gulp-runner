@@ -1,6 +1,7 @@
 ## Electron Gulp Runner
 [Electron](http://electron.atom.io/) based [Gulp](http://gulpjs.com/) task runner.
 
+This application is aiming that running a gulpfile without installing node.js or gulp.js( and its plugins).
 No need to install node.js and gulp.js because gulpfile.js is launched by Electron itself instead of node.js.
 
 ![Preview](./preview.png)
@@ -22,7 +23,7 @@ $ npm install && npm start
 # Install Gulp plugins that you want to build-in.
 $ npm install gulp-plugins-you-want-to-built-in
 
-# Packaging electron application
+# Packaging electron application for current OS
 $ npm run build
 ```
 
