@@ -55,7 +55,7 @@ app.on('ready', function () {
 		mainWindow.openDevTools();
 		fs.watch(__dirname, {persistent: true, recursive: true}, (event, filename) => {
 			if (filename !== mainfile) {
-				console.log('\x1b[36m' + new Date().toLocaleTimeString() + ` [${event}]\x1b[0m : ${filename}`);
+				console.log(`\x1b[36m${new Date().toLocaleTimeString()} [${event}]\x1b[0m ${filename}`);
 				mainWindow.reload();
 			}
 		});
