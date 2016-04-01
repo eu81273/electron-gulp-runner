@@ -3,6 +3,7 @@
 
 This application is aiming that running a gulpfile without installing node.js or gulp.js( and its plugins).
 No need to install node.js and gulp.js because gulpfile.js is launched by Electron itself instead of node.js.
+This application may be useful when need to run gulpfile under limited internet access.
 
 ![Preview](https://cdn.rawgit.com/eu81273/electron-gulp-runner/master/preview.png)
 
