@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 import actionCreator from './actionCreator';
 import BuildList from './BuildList.jsx';
 import Container from './Container.jsx';
-import { ipcRenderer } from 'electron';
-import remote, { app, dialog } from 'remote';
+import { ipcRenderer, remote } from 'electron';
 import fs from 'fs';
+
+const { app, dialog } = remote;
 
 export default class App extends Component {
 	constructor (props) {
